@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "enderswords",
+  "version": "1.0.0",
+  "name": "Enderswords",
+  "authors": [
+    "purejosh"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/members/purejoshmc/projects",
+    "sources": ""
+  },
+  "license": "Custom license",
+  "icon": "assets/enderswords/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.purejosh.enderswords.EnderswordsMod"
+    ],
+    "client": [
+      "net.purejosh.enderswords.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "enderswords.mixins.json"
+  ]
+}

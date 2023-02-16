@@ -1,0 +1,39 @@
+{
+  "_fv": 38,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "iron_endersword",
+    "customModelName": "Normal",
+    "name": "Iron Endersword",
+    "specialInfo": [
+      "§7Ender Pearl   §eRIGHT CLICK",
+      "§8Shoots an ender pearl",
+      "§8Durability cost: §32",
+      "§8Cooldown: §a2s"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.9,
+    "enchantability": 14,
+    "damageVsEntity": 3.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "IronEnderBladeRightClick"
+    }
+  }
+}

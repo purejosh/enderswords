@@ -1,0 +1,39 @@
+{
+  "_fv": 38,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stone_endersword",
+    "customModelName": "Normal",
+    "name": "Stone Endersword",
+    "specialInfo": [
+      "§7Ender Pearl   §eRIGHT CLICK",
+      "§8Shoots an ender pearl",
+      "§8Durability cost: §31",
+      "§8Cooldown: §a1.5s"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.9,
+    "enchantability": 5,
+    "damageVsEntity": 2.0,
+    "usageCount": 131,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.COBBLESTONE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "StoneEnderBladeRightClick"
+    }
+  }
+}
