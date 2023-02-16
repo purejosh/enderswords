@@ -34,7 +34,7 @@ public class NetheriteEnderswordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 3f;
 			}
 
 			public int getLevel() {
@@ -42,7 +42,7 @@ public class NetheriteEnderswordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
