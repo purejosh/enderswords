@@ -4,7 +4,7 @@ Enderswords is a mod that adds a useful variant to the vanilla material swords, 
 
 ## Download
 
-Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/enderswords-fabric-forge).
+Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/enderswords-fabric-forge) or [Modrinth](https://modrinth.com/mod/enderswords).
 
 ## Issues or Suggestions
 
