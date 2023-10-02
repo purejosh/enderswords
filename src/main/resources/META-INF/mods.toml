@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="Custom license"
+
+[[mods]]
+modId="enderswords"
+version="1.0.3"
+displayName="Enderswords"
+credits="purejosh"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/enderswords-fabric-forge"
+logoFile="logo.png"
+authors="purejosh"
+description="Enderswords is a mod that adds a useful variant to the vanilla material swords, giving your swords the ability to innately throw Ender Pearls on right click, while also speeding the sword attack up and lowering the attack damage slightly.  "
+
+[[dependencies.enderswords]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

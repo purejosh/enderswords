@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "adv_give_hilt_recipe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_rod"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "enderswords:craft_endersword_hilt"
+    ]
+  }
+}

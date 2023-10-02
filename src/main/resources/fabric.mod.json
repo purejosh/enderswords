@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "enderswords",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "name": "Enderswords",
   "description": "Enderswords is a mod that adds a useful variant to the vanilla material swords, giving your swords the ability to innately throw Ender Pearls on right click, while also speeding the sword attack up and lowering the attack damage slightly.  ",
   "authors": [
@@ -23,9 +23,9 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.9",
+    "fabricloader": ">=0.14.21",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.20",
     "java": ">=17"
   },
   "mixins": [

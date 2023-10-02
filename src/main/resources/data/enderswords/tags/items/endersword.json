@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "enderswords:iron_endersword",
+    "enderswords:amethyst_endersword",
+    "enderswords:pure_amethyst_endersword",
+    "enderswords:emerald_endersword",
+    "enderswords:wooden_endersword",
+    "enderswords:stone_endersword",
+    "enderswords:copper_endersword",
+    "enderswords:netherite_endersword",
+    "enderswords:diamond_endersword",
+    "enderswords:golden_endersword"
+  ]
+}

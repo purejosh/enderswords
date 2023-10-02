@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "enderswords:items/golden_endersword"
+    "layer0": "enderswords:item/golden_endersword"
   }
 }

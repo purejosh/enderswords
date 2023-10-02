@@ -17,6 +17,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.purejosh.enderswords.init.EnderswordsModProcedures;
 import net.purejosh.enderswords.init.EnderswordsModItems;
+import net.purejosh.enderswords.init.EnderswordsModGameRules;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -27,6 +28,8 @@ public class EnderswordsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing EnderswordsMod");
+
+		EnderswordsModGameRules.load();
 
 		EnderswordsModItems.load();
 

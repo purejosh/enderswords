@@ -1,32 +1,27 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
-    " 1 ",
-    "345",
-    "67 "
+    "0  ",
+    " 4 ",
+    "6 8"
   ],
   "key": {
-    "1": {
-      "item": "minecraft:ender_eye"
-    },
-    "3": {
-      "item": "minecraft:ender_eye"
-    },
-    "4": {
+    "0": {
       "item": "minecraft:quartz"
     },
-    "5": {
+    "4": {
       "item": "minecraft:ender_eye"
     },
     "6": {
       "item": "minecraft:blaze_rod"
     },
-    "7": {
-      "item": "minecraft:ender_eye"
+    "8": {
+      "item": "minecraft:quartz"
     }
   },
   "result": {
-    "item": "enderswords:enderblade_hilt",
+    "item": "enderswords:endersword_hilt",
     "count": 1
   }
 }

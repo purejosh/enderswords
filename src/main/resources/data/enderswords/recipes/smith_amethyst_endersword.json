@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:blaze_powder"
+  },
+  "base": {
+    "item": "pureamethysttools:pure_amethyst_sword"
+  },
+  "addition": {
+    "item": "enderswords:endersword_hilt"
+  },
+  "result": {
+    "item": "enderswords:pure_amethyst_endersword"
+  }
+}
