@@ -23,11 +23,11 @@ import net.fabricmc.api.EnvType;
 
 import java.util.List;
 
-public class NetheriteEnderswordItem extends SwordItem {
-	public NetheriteEnderswordItem() {
+public class ExposedCopperEnderswordItem extends SwordItem {
+	public ExposedCopperEnderswordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2031;
+				return 218;
 			}
 
 			public float getSpeed() {
@@ -35,7 +35,7 @@ public class NetheriteEnderswordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 1f;
 			}
 
 			public int getLevel() {
@@ -43,13 +43,13 @@ public class NetheriteEnderswordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 15;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.NETHERITE_SCRAP));
+				return Ingredient.of(new ItemStack(Items.EXPOSED_COPPER_INGOT));
 			}
-		}, 3, -2.1f, new Item.Properties().fireResistant());
+		}, 3, -2.1f, new Item.Properties());
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
 	}
 
@@ -66,5 +66,6 @@ public class NetheriteEnderswordItem extends SwordItem {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A77Ender Pearl \u00A7eRIGHT CLICK"));
 		list.add(Component.literal("\u00A78Shoots an ender pearl"));
+		list.add(Component.literal("\u00A77\u00A7oRequires Pure Copper Tools"));
 	}
 }

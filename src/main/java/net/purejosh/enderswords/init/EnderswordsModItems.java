@@ -9,6 +9,7 @@ import net.purejosh.enderswords.item.PureAmethystEnderswordItem;
 import net.purejosh.enderswords.item.NetheriteEnderswordItem;
 import net.purejosh.enderswords.item.IronEnderswordItem;
 import net.purejosh.enderswords.item.GoldenEnderswordItem;
+import net.purejosh.enderswords.item.ExposedCopperEnderswordItem;
 import net.purejosh.enderswords.item.EnderswordHiltItem;
 import net.purejosh.enderswords.item.EmeraldEnderswordItem;
 import net.purejosh.enderswords.item.DiamondEnderswordItem;
@@ -33,6 +34,7 @@ public class EnderswordsModItems {
 	public static Item AMETHYST_ENDERSWORD;
 	public static Item PURE_AMETHYST_ENDERSWORD;
 	public static Item EMERALD_ENDERSWORD;
+	public static Item EXPOSED_COPPER_ENDERSWORD;
 
 	public static void load() {
 		ENDERSWORD_HILT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(EnderswordsMod.MODID, "endersword_hilt"), new EnderswordHiltItem());
@@ -46,6 +48,7 @@ public class EnderswordsModItems {
 		AMETHYST_ENDERSWORD = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(EnderswordsMod.MODID, "amethyst_endersword"), new AmethystEnderswordItem());
 		PURE_AMETHYST_ENDERSWORD = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(EnderswordsMod.MODID, "pure_amethyst_endersword"), new PureAmethystEnderswordItem());
 		EMERALD_ENDERSWORD = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(EnderswordsMod.MODID, "emerald_endersword"), new EmeraldEnderswordItem());
+		EXPOSED_COPPER_ENDERSWORD = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(EnderswordsMod.MODID, "exposed_copper_endersword"), new ExposedCopperEnderswordItem());
 	}
 
 	public static void clientLoad() {

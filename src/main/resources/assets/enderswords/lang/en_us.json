@@ -8,6 +8,7 @@
   "advancements.adv_give_endersword_recipes.title": "Adv Give Endersword Recipes",
   "gamerule.enderswords_ability_cooldown_percentage": "Enderswords: Ability Cooldown Percentage",
   "gamerule.enderswords_ability_cooldown_percentage.description": "Adjusts the right click ability cooldown duration.",
+  "item.enderswords.exposed_copper_endersword": "Exposed Copper Endersword",
   "item.enderswords.diamond_endersword": "Diamond Endersword",
   "item.enderswords.emerald_endersword": "Emerald Endersword",
   "item.enderswords.pure_amethyst_endersword": "Pure Amethyst Endersword",
