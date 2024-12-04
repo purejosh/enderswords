@@ -1,6 +1,6 @@
 # Enderswords
 
-Enderswords is a mod that adds a useful variant to the vanilla material swords, giving your swords the ability to innately throw Ender Pearls on right click, while also speeding the sword attack up and lowering the attack damage slightly. 
+Enderswords adds a useful sword variant that has an innate ability to throw Ender Pearls on right click.
 
 ## Download
 
