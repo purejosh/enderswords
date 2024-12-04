@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "enderswords:netherite_endersword",
+    {
+      "id": "enderswords:pure_emerald_netherite_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:lonsdaleite_endersword",
+      "required": false
+    }
+  ]
+}

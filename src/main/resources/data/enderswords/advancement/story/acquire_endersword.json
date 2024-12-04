@@ -1,0 +1,42 @@
+{
+	"parent": "minecraft:story/smelt_iron",
+	"criteria": {
+		"has_endersword": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"enderswords:wooden_endersword",
+							"enderswords:stone_endersword",
+							"enderswords:iron_endersword",
+							"enderswords:golden_endersword",
+							"enderswords:diamond_endersword",
+							"enderswords:netherite_endersword"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "advancements.story.acquire_endersword.desc"
+		},
+		"icon": {
+			"count": 1,
+			"id": "enderswords:golden_endersword"
+		},
+		"title": {
+			"translate": "advancements.story.acquire_endersword.title"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"requirements": [
+		[
+			"has_endersword"
+		]
+	]
+}

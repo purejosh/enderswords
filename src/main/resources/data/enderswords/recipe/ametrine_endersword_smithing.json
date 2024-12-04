@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "pureores"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderswords:endersword_hilt"
+  },
+  "base": {
+    "item": "pureores:ametrine_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "enderswords:ametrine_endersword"
+  },
+  "template": {
+    "item": "enderswords:endersword_upgrade_smithing_template"
+  }
+}

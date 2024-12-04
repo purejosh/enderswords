@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "purequartztools"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderswords:endersword_hilt"
+  },
+  "base": {
+    "item": "purequartztools:quartz_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "enderswords:quartz_endersword"
+  },
+  "template": {
+    "item": "enderswords:endersword_upgrade_smithing_template"
+  }
+}

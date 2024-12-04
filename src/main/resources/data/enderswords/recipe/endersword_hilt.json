@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "pattern": [
+    "Q  ",
+    " E ",
+    "B Q"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderswords:endersword_hilt"
+  }
+}

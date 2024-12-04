@@ -1,6 +1,6 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "enderswords:item/exposed_copper_endersword"
-  }
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "enderswords:item/purecoppertools/exposed_copper_endersword"
+	}
 }

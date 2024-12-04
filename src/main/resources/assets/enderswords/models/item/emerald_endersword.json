@@ -1,6 +1,1 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "enderswords:item/emerald_endersword"
-  }
-}
+{	"parent": "item/handheld",	"textures": {		"layer0": "enderswords:item/pureemeraldtools/emerald_endersword"	}}

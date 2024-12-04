@@ -1,0 +1,14 @@
+{
+  "values": [
+    "enderswords:wooden_endersword",
+    "enderswords:stone_endersword",
+    "enderswords:iron_endersword",
+    "enderswords:golden_endersword",
+    "enderswords:diamond_endersword",
+    "enderswords:netherite_endersword",
+    {
+      "id": "#c:tools/melee_weapons",
+      "required": false
+    }
+  ]
+}

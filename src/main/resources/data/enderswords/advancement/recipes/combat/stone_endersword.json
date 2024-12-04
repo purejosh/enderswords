@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone",
+              "minecraft:stone_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_endersword_hilt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enderswords:endersword_hilt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_stone"
+    ],
+    [
+      "has_endersword_hilt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "enderswords:stone_endersword_smithing"
+    ]
+  }
+}

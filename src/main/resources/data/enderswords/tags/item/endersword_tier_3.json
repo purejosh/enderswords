@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "values": [
+    "enderswords:iron_endersword",
+    {
+      "id": "enderswords:moonstone_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:fire_opal_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:jadeite_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:emerald_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:ametrine_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:chrysoberyl_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:pure_amethyst_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:sapphire_endersword",
+      "required": false
+    }
+  ]
+}

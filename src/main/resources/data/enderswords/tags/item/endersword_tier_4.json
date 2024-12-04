@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "enderswords:diamond_endersword",
+    {
+      "id": "enderswords:pure_emerald_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:black_diamond_endersword",
+      "required": false
+    }
+  ]
+}

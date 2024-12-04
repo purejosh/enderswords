@@ -1,6 +1,6 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "enderswords:item/pure_amethyst_endersword"
-  }
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "enderswords:item/pureamethysttools/pure_amethyst_endersword"
+	}
 }

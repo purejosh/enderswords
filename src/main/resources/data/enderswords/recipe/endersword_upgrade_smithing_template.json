@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "item": "minecraft:ender_eye"
+    },
+    "S": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderswords:endersword_upgrade_smithing_template"
+  }
+}

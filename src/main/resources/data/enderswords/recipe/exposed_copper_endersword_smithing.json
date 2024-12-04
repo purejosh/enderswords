@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "purecoppertools"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderswords:endersword_hilt"
+  },
+  "base": {
+    "item": "purecoppertools:exposed_copper_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "enderswords:exposed_copper_endersword"
+  },
+  "template": {
+    "item": "enderswords:endersword_upgrade_smithing_template"
+  }
+}

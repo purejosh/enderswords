@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gold": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot",
+              "minecraft:golden_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_endersword_hilt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enderswords:endersword_hilt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_gold"
+    ],
+    [
+      "has_endersword_hilt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "enderswords:golden_endersword_smithing"
+    ]
+  }
+}

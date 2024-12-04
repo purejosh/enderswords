@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderswords:endersword_hilt"
+  },
+  "base": {
+    "item": "minecraft:golden_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "enderswords:golden_endersword"
+  },
+  "template": {
+    "item": "enderswords:endersword_upgrade_smithing_template"
+  }
+}

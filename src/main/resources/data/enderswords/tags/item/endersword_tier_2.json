@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "enderswords:stone_endersword",
+    {
+      "id": "enderswords:copper_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:exposed_copper_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:quartz_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:amethyst_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:weathered_copper_endersword",
+      "required": false
+    },
+    {
+      "id": "enderswords:oxidized_copper_endersword",
+      "required": false
+    }
+  ]
+}

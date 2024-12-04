@@ -1,11 +1,11 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "net.purejosh.enderswords.mixins",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
-	"EnderswordsModRepairItemRecipeMixin"  ],
-  "injectors": {
-	"defaultRequire": 1
-  }
+	"required": true,
+	"package": "net.purejosh.enderswords.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
 }
